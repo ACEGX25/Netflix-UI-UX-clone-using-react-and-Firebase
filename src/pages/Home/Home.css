@@ -1,0 +1,66 @@
+.hero{
+    position: relative;
+}
+
+.banner{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent,black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent,black 75%);
+}
+
+.herocap{
+    width: 100%;
+    position: absolute;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.captioni{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.herocap p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.herob{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+
+}
+
+.herob .btn img{
+    width: 25px;
+}
+
+.herob .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.herob .btn.dark-btn{
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.herob .btn:hover{
+    background: #ffffffbf;
+}
+
+.herob .btn.dark-btn:hover{
+    background: #6d6d6e66;
+}
