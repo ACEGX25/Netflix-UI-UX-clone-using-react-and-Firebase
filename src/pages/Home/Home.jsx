@@ -6,6 +6,7 @@ import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards'
+// import Herodkou from '../../components/TitleCards/herodkou'
 import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
@@ -30,7 +31,7 @@ const Home = () => {
       <div className="morecards">
       <TitleCards title={"Since You Watched Animal"}/>
       <TitleCards title={"Only On Netflix"}/>
-      <TitleCards title={"Trupti's Picks"}/>
+      {/* <Herodkou title={"Trupti's Picks"}/> */}
       <TitleCards title={"Critically Acclaimed TV shows"}/>
       </div>
       <Footer/>
