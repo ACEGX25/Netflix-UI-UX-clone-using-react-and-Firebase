@@ -68,3 +68,46 @@
 .morecards{
     padding: 6%;
 }
+
+@media (max-width: 1024px){
+    .herocap .titlecards{
+        display: none;
+    }
+    .herob{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    .herocap{
+        padding-left: 4%;
+    }
+    .captioni{
+        margin-bottom: 10px;
+        width: 40%;
+    }
+    .herocap p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .herob .btn img{ 
+        width: 20px;
+    }
+    .morecards{
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 500px){
+    .captioni{
+        display: none;
+    }
+    .herob .btn img{
+        width: 15px;
+    }
+    .herob .btn{
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+}

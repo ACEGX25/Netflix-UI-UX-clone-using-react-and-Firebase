@@ -22,3 +22,15 @@
     color: gray;
     font-size: 14px;
 }
+
+@media (max-width: 800px){
+    .footer .help{
+        width: auto;
+        font-size: 20px;
+    }
+    .footer ul{
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
+}
