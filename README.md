@@ -60,7 +60,7 @@ This project is deployed using Vercel. You can visit the deployed site at:
 
 [Netflix-UI-UX-clone-using-react-and-Firebase](https://netflix-ui-ux-clone-using-react-and-firebase.vercel.app/)
 
-## Mockup
+## Cross Platform Compatability
 The application is designed to be fully responsive and looks great on any device. Below is a mockup depicting the website's adaptability across different devices.
 
 ![smartmockups_lxutm998](https://github.com/ACEGX25/Netflix-UI-UX-clone-using-react-and-Firebase/assets/143728245/66a0b608-01cd-425e-9f47-f6e36c3758ff)
