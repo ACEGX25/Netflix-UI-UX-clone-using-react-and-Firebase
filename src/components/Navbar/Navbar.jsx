@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import search_icon from '../../assets/search_icon.png'
@@ -8,8 +8,18 @@ import caret_icon from '../../assets/caret_icon.png'
 
 
 const Navbar = () => {
+  const navref = useRef();
+  useEffect (()=>{
+    window.addEventListener('scroll',()=>{
+      if(window.scrollY >= 80){
+        navref.current.classList.add('nav-dark')
+      }else{
+        navref.current.classList.remove('nav-dark')
+      }
+    })
+  },[])
   return (
-    <div className='navbar'>
+    <div ref={navref} className='navbar'>
       <div className="navbarleft">
         <img src={logo} alt="" srcset="" />
         <ul>
