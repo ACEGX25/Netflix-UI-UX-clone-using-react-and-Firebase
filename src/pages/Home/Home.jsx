@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
-import hero_babba from '../../assets/hero_babba.png'
-import hero_title from '../../assets/hero_title.png'
+import hero_babba3 from '../../assets/hero_babba3.jpg'
+import hero_title2 from '../../assets/hero_title2.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards'
@@ -14,12 +14,12 @@ const Home = () => {
     <div className='home'>
       <Navbar/>
       <div className="hero">
-        <img src={hero_babba} alt="" className='banner' />
+        <img src={hero_babba3} alt="" className='banner' />
         <div className="herocap">
-        <img src={hero_title} alt="" className='captioni' />
+        <img src={hero_title2} alt="" className='captioni' />
         <p>
-        When a young boy vanishes, a small town uncovers a mystery involving secret 
-        experiments, terrifying supernatural forces and one strange little girl.
+        Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster,
+         baptized in the horrific power of the atomic bomb
         </p>
         <div className="herob">
             <button className='btn'><img src={play_icon} alt=""  />Play</button>
