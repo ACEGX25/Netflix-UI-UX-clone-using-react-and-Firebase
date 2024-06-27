@@ -13,7 +13,7 @@ const Footer = () => {
         <img src={twitter_icon} alt="" />
       </div> */}
       <div className="help">
-      Questions? Call 000-800-919-1694
+      <p> <a href='https://help.netflix.com/en/contactus'>Questions?</a> Call 000-800-919-1694</p>
       </div>
       <ul>
         <li>Audio Desciption</li>
